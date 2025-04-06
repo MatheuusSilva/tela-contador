@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.Contador {
+    font-size: 48px;
+    margin: 20px 0;
+    color: #333;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 50px 80px;
+    font-size: 40px;
+    border: none;
+    border-radius: 40px;
+
+}
+
+
+
+#Diminuir {
+    background-color: #ff4444;
+    color: white;
+    width: auto;
+    height: 60px;
+}
+
+
+#Aumentar {
+    background-color: #00C851;
+    color: white;
+}
+
+
+#Zerar {
+    background-color: #33b5e5;
+    color: white;
+}
